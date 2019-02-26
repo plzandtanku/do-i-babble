@@ -3,6 +3,7 @@ import java.io.*;
 
 public class BabbleCheck {
 	public static void main(String[] args){
+		// Assume we're doing a WhatsApp chat log
 		String filename = "my_chat_log.txt";
 		if (args.length < 1) System.out.println("No file specified, reading from file: " + filename);
 		if (args.length > 0) filename = args[0];
